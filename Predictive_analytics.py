@@ -31,7 +31,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Loading historical Kenya CPI data 
 # I had to clean the date column because the entries were wrongly set using microsoft excel
-df = pd.read_csv(r'C:\Users\PC\Desktop\KIbe\sem 2\Unstructured data analytics & apps\jupkibe\data\cpi.csv')
+df = pd.read_csv('#') #download data from url provided
 df['Date'] = pd.to_datetime(df['Date']) 
 df.set_index('Date', inplace=True)
 data = df['Kenya CPI'].values.reshape(-1, 1) 
