@@ -1,1 +1,5 @@
-# let us use kenya as our case study to predict future consumer price index
+- let us use kenya as our case study to predict future consumer price index
+- apply RNN eg LSTM or gru architectures
+- ensure sequence prediction
+- ensure time series forecasting et cetera
+- Test and validate your models
